@@ -57,3 +57,89 @@ a:hover{
 h1{
   font-size: 6rem;
 }
+#desc{
+  font-size: 1em;
+  margin-top: -5%;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Pacifico', cursive;
+  
+}
+
+hr{
+  border-width: 4px;
+}
+#projects{
+  margin: auto;
+}
+@media only screen and (min-width: 800px) {
+  td{
+    margin: auto;
+    text-align: center;
+    border-style: solid;
+    border-radius: 1%;
+    border-width: 1px;
+    height: 100px;
+    width: 700px;
+    box-shadow: 0 30px 10px rgba(0, 0, 0, 0.171), 0 16px 16px rgba(128, 113, 111, 0.171);
+  }
+
+td:hover{
+  transform: scale(1.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.171), 0 16px 16px rgba(128, 113, 111, 0.171);
+  
+}
+
+.shake:hover{
+  animation:  shake 0.8s  ;
+   }
+   
+   @keyframes shake{
+     0%{
+       transform: translateY(0)
+     }
+     25%{
+       transform: translateY(25px);
+     }
+       
+     50%{
+       transform: translateY(-25px);
+     }
+     100%{
+       transform: translateY(0px);
+     }
+
+}
+
+table{
+  background-image: url(https://wallpaperaccess.com/full/1668918.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-spacing: 10vw 10px;
+  margin: auto;
+  padding: 150px 0px 150px 0px;
+}
+
+.project-tile{
+  font-weight: bold;
+  font-size: 2.1em;
+  font-family: 'Palette Mosaic', cursive;
+  color: black;
+  padding: 5% 10% 10% 10%;
+  margin: 0px 0px 0px 0px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  background-color: rgb(101, 116, 131);
+  padding: 10px 0% 1% 0%;
+  margin: 0% -0.6% 0% -0.6%;
+}
+}
