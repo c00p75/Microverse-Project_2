@@ -31,6 +31,18 @@ nav{
   padding: 0px 5px 0px 5px;
   } 
 
+  /* nav{
+    position: fixed;
+    right: .1%;
+    background-color:rgba(65, 65, 65, 0.8);
+    border-radius: 1px;
+    color: rgb(228, 228, 236);
+    font-size: 1.5rem;
+    opacity: .6;
+    top: 0;
+    padding: 0px 5px 0px 5px;
+    }  */
+
 a {
   text-decoration: none;
   color:rgb(243, 50, 50);
